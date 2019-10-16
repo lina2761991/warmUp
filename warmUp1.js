@@ -5,5 +5,5 @@ var z = x + y;
 console.log(z);
 // 2-calculate the area of a square using varaiables.
 function squareArea(a){
-	return a*4;
+	return a*a;
 }
