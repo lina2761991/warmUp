@@ -21,15 +21,20 @@ function reverse (string){
 // 2-write a function that takes array of strings and returns an array of the strings that have the same length
 // example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
 
-function list(array){
 
-	var arr = [];
-	var lengtharr = "";
-	for(var i=0;i<array.length; i++){
 
-	    lengtharr =lengtharr +(array[i].length);
+function same(array){
+
+var arr = [];
+
+	for(var i in array){
+		for(var j in array){
+		if(array[i].length === array[j].length && i != j){
+			arr.push(array[i]);
+		
 		}
-		arr = lengtharr.split('');
-
+		
+	}
 }
-
+ return arr;
+}
