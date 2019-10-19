@@ -12,6 +12,7 @@ function middle(array){
 		return array[(array.length-1)/2];
 }
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 
 var array = [1, 2, 3];
@@ -52,3 +53,6 @@ multiply(array);
 
 
 
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
