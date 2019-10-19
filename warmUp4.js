@@ -9,12 +9,11 @@ function reverse (string){
 	var stringn2 = "";
 
 		while(n>=0){
-			stringn2 =  stringn2  + string2[n];
-	   
-	       n--;
+		  stringn2 =  stringn2  + string2[n];
+	      n--;
 		}
-		return stringn2;
 
+		return stringn2;
 }
 
 
@@ -31,10 +30,9 @@ var arr = [];
 		for(var j in array){
 		if(array[i].length === array[j].length && i != j){
 			arr.push(array[i]);
-		
-		}
-		
+		}	
 	}
 }
+
  return arr;
 }
