@@ -45,7 +45,7 @@ function nbOfMale(arr){
 //           searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
 function searchMates(arr, query){
 	for(var i=0; i<arr.length; i++){
-		if(arr[i].firstName === query.toLowerCase() ){
+		if(arr[i].firstName === query.toLowerCase()){
 			return arr[i];
 		}
 		else {
