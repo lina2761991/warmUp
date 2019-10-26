@@ -1,0 +1,32 @@
+body{
+	background-color: blue;
+}
+img{
+	height: 400px;
+	width: 500px;
+	float: left;
+}
+button{
+	margin-top: 50px;
+	margin-right: 10px;
+	
+}
+
+.a {
+font: 2em "Open Sans", sans-serif;
+}
+
+.b {
+	font: italic 2em "Open Sans", serif;
+}
+ul,footer{
+	color: white;
+}
+/*.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    }*/
