@@ -1,15 +1,17 @@
- 
-	
-
-  
-      // $( "button" ).click(function() {
-      // 	var a = $("input").val();
-      //   $( "li" ).append(a).addClass("class1");
-      // });
+       var count = 0;
 
         $( "button" ).click(function() {
-      	var a = $("input").val();
-        $( "li" ).append(a).toggleClass("class1" ,"class2");
-      });
+	        count++;
+	      	var v = $("input").val();
+	      	var $ul = $('ul');
+	      	var $li = $('<li></li>');
 
-   
+	      	if(count %2 === 0){
+	         $li.text(v).addClass('class2');
+	         }
+	        else{
+	         $li.text(v).addClass('class1');	
+	         }
+	         
+	         $li.appendTo($ul);
+      });
