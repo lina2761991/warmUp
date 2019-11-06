@@ -15,3 +15,22 @@ function reverse(string){
 }
 
 
+
+function splitf(string){
+	var array = [];
+	var arr = [];
+	
+	for(var i=0;i<string.length;i++){
+		
+		if(string[i] === " "){
+
+			for(var j = 0; j<i;j++){
+			array.push(string[j]);
+			
+		}
+	}
+	   console.log(array)
+}
+
+	return arr;
+}
