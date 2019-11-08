@@ -38,7 +38,7 @@
      var s = arr.indexOf(arrWord[0]);
   
 
-	for(var i= 1;i<arrWord.length;i++){
+	for(var i= 0;i<arrWord.length-1;i++){
 
       
 	
